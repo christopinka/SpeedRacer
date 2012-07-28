@@ -119,39 +119,9 @@
 			<div class="wrapper">
 				<div class="col-1">
 					<h3>Welcome to <b>Speed Racing</b> Website</h3>
-					<h4><b>Introduction</b></h4>
-					<p>Speed racer website will support a Rent-A-Car dealership and will manage: Car stock,</br> Simple Administration, User management and ordering.</p>
-										
-					<h4><b>Specifications</b></h4>
-					<p>The car dealership website will support Rent-A-Car employis and random user wanting to rent a car.</p>
-				
-					<ul>
-						<li><b>Web site</b></li>
-							<li>Home page</li>
-							<li>Pricing page - to show prices</li>
-							<li>Rent a car page - to rent a car</li>
-							<li>contact page - to view contact information</li>
-							<li>Branches page - to see what branches are available</li>
-					</ul>
-				
-				
-					<ul>
-						<li><b>Administrator</b></li>
-							<li>Will be able to view the cars in stock</li>
-							<li>Will be able to view the cars location</li>
-							<li>Will be able to disable a car from stock</li>
-					</ul>
-					
-					<ul>
-						<li><b>User</b></li>
-							<li>Will be able to view the cars in selected location</li>
-							<li>Will be able to select car</li>
-							<li>Will be able to select the time of rent in days</li>
-							<li>Will be able to see the money it will cost him</li>
-							<li>Will be able to order the car for that time</li>
-					</ul>
-					
-					
+					<?php
+						include ("snippets/registerForm.html");
+					?>	
 				</div>
 				<div class="col-2">
 					<div class="box2">

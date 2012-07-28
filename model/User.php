@@ -3,6 +3,7 @@
 class User {
 	
 	private $userId;
+	private $userName;
 	private $firstName;
 	private $lastName;
 	private $email;
@@ -12,6 +13,14 @@ class User {
 	private $ssid;
 	private $licenseNumber;
 	private $country;
+	
+	
+	public function setUserName($newUserName) {
+		return $this->userName = $newUserName ;
+	}
+	public function getUserName() {
+		return $this->userName;
+	}
 	
 	public function getUserId() {
 		return $this->userId;

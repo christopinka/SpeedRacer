@@ -1,0 +1,19 @@
+<html>
+<!-- Add form validation and php support for error messages that come back from server  -->
+<h3><b>Register</b></h3>
+<form action="controllers/AdministrationController.php" id="register-form" method="get">
+<div class="field"><label>*Username:</label><input name="username" type="text" /></div>
+<div class="field"><label>*Password:</label><input name="password" type="password" /></div>
+<div class="field"><label>*Re-enter Password:</label><input type="password" /></div>
+<div class="field"><label>*First Name:</label><input name="firstName" type="text" /></div>
+<div class="field"><label>*Last Name:</label><input name="lastName" type="text" /></div>
+<div class="field"><label>*Email Address</label><input name="email" type="text" /></div>
+<div class="field"><label>Country:</label><input name="country" type="text" /></div>
+<div class="field"><label>Billing Address:</label><input name="billingAddress" type="text" /></div>
+<div class="field"><label>Mailing Address:</label><input name="mailingAddress" type="text" /></div>
+<a href="#" onclick="document.getElementById('register-form').submit()"><em><b><span>Log In</span></b></em></a>
+<input type="submit" name="formSubmit" value="register-form" />
+
+</form>
+
+</html>
