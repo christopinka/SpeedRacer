@@ -43,7 +43,7 @@
 				<ul>
 					<li><a href="index.html" class="active"><span>home</span></a></li>
 					<li><a href="about-us.html"><span>Pricing</span></a></li>
-					<li><a href="articles.html"><span>Rent A Car</span></a></li>
+					<li><a href="rentacar.php"><span>Rent A Car</span></a></li>
 					<li><a href="contact-us.html"><span>contact</span></a></li>
 					<li class="last"><a href="sitemap.html"><span>Branches</span></a></li>
 				</ul>
